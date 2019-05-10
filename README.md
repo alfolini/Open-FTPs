@@ -45,11 +45,11 @@ First Import the Module, this can be done by placing this module on the Path and
 
 Then just copy and paste the below into the Command Prompt changing that parameter inputs to meet your needs:
 
-Start-ImplicitSSLFileUpload -SeverIPAddress "1.2.3.4" -ControlPortNumber 990 -LocalFilePath "C:\ExampleFile.txt" -RemoteDirectory /FTPServerArchive/InboundFileDirectory" -UserName "ExampleUserName" -Password "ExamplePassword"
+Start-ImplicitSSLFileUpload -ServerIPAddress "1.2.3.4" -ControlPortNumber 990 -LocalFilePath "C:\ExampleFile.txt" -RemoteDirectory /FTPServerArchive/InboundFileDirectory" -UserName "ExampleUserName" -Password "ExamplePassword"
 
 Or if using a Self Signed Cert the below:
 
-Start-ImplicitSSLFileUpload -SeverIPAddress "1.2.3.4" -ControlPortNumber 990 -LocalFilePath "C:\ExampleFile.txt" -RemoteDirectory /FTPServerArchive/InboundFileDirectory" -UserName "ExampleUserName" -Password "ExamplePassword" -SelfSigned
+Start-ImplicitSSLFileUpload -ServerIPAddress "1.2.3.4" -ControlPortNumber 990 -LocalFilePath "C:\ExampleFile.txt" -RemoteDirectory /FTPServerArchive/InboundFileDirectory" -UserName "ExampleUserName" -Password "ExamplePassword" -SelfSigned
 
 Hope this was helpful, please consider contributing.
 
